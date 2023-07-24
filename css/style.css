@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* BUTTONS */
+
+.menu-right button{
+    padding: 10px 20px;
+    border: 0px;
+    background-color: #0061FF;
+    color: white;
+    font-size: 1rem;
+}
+
+/* HEADER */
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .menu-left,
+header .menu-right{
+    display: flex;
+    align-items: center;
+}
+
+.menu-left img{
+    margin: 0px 20px;
+}
+
+header ul li{
+    display: inline-block;
+    list-style: none;
+    line-height: 80px;
+    padding: 0px 15px;
+    border-bottom: 2px solid white;
+}
+
+header ul li:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.no-border:hover{
+    border-bottom: 2px solid white;
+    cursor: initial;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
