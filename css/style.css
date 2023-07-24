@@ -17,6 +17,7 @@ button{
     color: white;
     font-size: 1rem;
 }
+/* TODO:METTERE L HOVER AI BOTTONI */
 
 /* HEADER */
 
@@ -26,6 +27,9 @@ header{
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid white;
+    position: fixed;
+    z-index: 999;
+    background-color: white;
 }
 
 header .menu-left,
@@ -63,9 +67,12 @@ header ul li a{
 
 /* MAIN */
 
+/* JUMBOTRON */
+
 .jumbotron-top{
     width: 100%;
     background-color: #B4D0E7;
+    padding-top: 80px;
 }
 
 .jumbo-top-content{
@@ -105,8 +112,137 @@ header ul li a{
 .image{
     width: 70%;
 }
+
 .image img{
     width: 900px;
     position: relative;
     top: 70px;    
 }
+
+/* BUSINESS PLANS*/
+
+
+.business-plans{
+    width: 70%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.business-plans h2{
+    font-size: 2.5rem;
+}
+
+.billing{
+    margin: 50px 0px 50px 0px;
+}
+
+.billing span{
+    margin-right: 50px;
+}
+
+.billing .circle{   
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #D3D3D5;
+    border-radius: 50%;
+    vertical-align: bottom;
+    margin: 0px;
+}
+
+.circle:hover{
+    border: 5px solid #0061FF;
+    cursor: pointer;
+}
+
+.payment-plans{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card{
+    width: 350px;
+    border: 1px solid #DEDEE0;
+    margin-bottom: 50px;
+}
+
+.payment-plans .card:last-child{
+    flex-grow: 1;
+}
+
+.card .type{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #DEDEE0;
+    padding: 10px;
+}
+
+.card .type i{
+    padding-right: 5px;
+}
+
+.card .content-card{
+    padding: 25px;
+}
+
+.card .content-card h3{
+    font-size: 1.5rem;
+}
+
+.card .content-card span{
+    display: block;
+    padding-top: 20px;
+}
+
+.card .content-card .time{
+    color: #888888;
+    padding-bottom: 50px;
+}
+
+.card .content-card ul li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.card .content-card ul li i{
+    padding-right: 5px;
+}
+
+.card .content-card button{
+    width: 100%;
+}
+
+.card .content-card .light-row{
+    width: 50px;
+    height: 50px;
+    border-bottom: 1px solid  #DEDEE0;
+    margin-bottom: 50px;
+}
+
+.card .content-card h4{
+    padding-bottom: 40px;
+}
+
+.fa-check{
+    color: #0061FF;
+    font-size: 1.2rem;
+}
+
+.card.long .content-card{
+    position: relative;
+}
+.card.long .content-card span{
+    padding-bottom: 20px;
+}
+
+.card.long .content-card button{
+    width: 20%;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+
