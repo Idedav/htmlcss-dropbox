@@ -10,7 +10,7 @@ body{
 
 /* BUTTONS */
 
-.menu-right button{
+button{
     padding: 10px 20px;
     border: 0px;
     background-color: #0061FF;
@@ -25,6 +25,7 @@ header{
     height: 80px;
     display: flex;
     justify-content: space-between;
+    border-bottom: 2px solid white;
 }
 
 header .menu-left,
@@ -60,4 +61,52 @@ header ul li a{
     color: black;
 }
 
+/* MAIN */
 
+.jumbotron-top{
+    width: 100%;
+    background-color: #B4D0E7;
+}
+
+.jumbo-top-content{
+    width: 80%;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.jumbo-top-content h1{
+    font-size: 5rem;
+    padding-top: 50px;
+}
+
+.jumbo-text-image{
+    display: flex;
+}
+
+.jumbo-text-image .text{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.jumbo-text-image .text p{
+    padding-top: 70px;
+}
+.jumbo-text-image .text button{
+    margin: 50px 0px;
+}
+
+.jumbo-text-image .text i{
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.image{
+    width: 70%;
+}
+.image img{
+    width: 900px;
+    position: relative;
+    top: 70px;    
+}
