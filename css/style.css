@@ -18,7 +18,6 @@ button{
     font-size: 1rem;
 }
 
-
 .find-partner .text button{
     border: 1px solid black;
     color: black;
@@ -31,7 +30,19 @@ button{
     padding: 10px 40px;
 }
 
-/* TODO:METTERE L HOVER AI BOTTONI */
+.no-border button:hover,
+.jumbo-top-content .jumbo-text-image .text button:hover,
+.payment-plans .card button:hover{
+    background-color: #418aff;
+    cursor: pointer;
+}
+
+.find-partner .text button:hover,
+.start-trial .right button:hover{
+    background-color: black;
+    color: white;
+}
+
 
 /* HEADER */
 
