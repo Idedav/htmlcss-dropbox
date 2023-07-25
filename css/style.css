@@ -447,7 +447,7 @@ header ul li a{
     width: 70%;
     max-width: 1200px;
     margin: auto;
-    padding-top: 100px;
+    padding: 100px 0px 100px 0px;
 }
 
 .faq h2{
@@ -460,4 +460,57 @@ header ul li a{
     font-weight: bold;
     display: flex;
     justify-content: space-between;
+}
+
+
+/* FOOTER */
+
+footer{
+    width: 100%;
+    background-color: black;
+}
+
+.list-container{
+    width: 80%;
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.list-container h3{
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.list-container h3,
+.list-container ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.list-container ul li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.flag{
+    width: 80%;
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    color: #808080;
+    padding-bottom: 50px;
+}
+
+.flag .light-row{
+    width: 100px;
+    height: 100px;
+    border-bottom: 1px solid  #808080;
+}
+
+.flag .lang{
+    padding-top: 30px;
 }
