@@ -25,6 +25,12 @@ button{
     background-color: white;
 }
 
+.start-trial button{
+    background-color: white;
+    color: black;
+    padding: 10px 40px;
+}
+
 /* TODO:METTERE L HOVER AI BOTTONI */
 
 /* HEADER */
@@ -75,7 +81,7 @@ header ul li a{
 
 /* MAIN */
 
-/* JUMBOTRON */
+/* JUMBOTRON TOP*/
 
 .jumbotron-top{
     width: 100%;
@@ -323,9 +329,114 @@ header ul li a{
     width: 70%;
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 150px;
 }
 
 .link h2{
     font-size: 2.5rem;
     padding-bottom: 50px;
 }
+
+
+/* JUMBOTRON BOT */
+
+.jumbotron-bot{
+    background-color: #B4D0E7;
+}
+
+.square-container{
+    display: flex;
+}
+
+.jumbotron-bot .big-square{
+    width: calc(100%/3);
+    height: calc(100vw/3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.big-square .square{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square img{
+    width: 50%;
+}
+
+.square.green{
+    background-color: #A2D39B;
+}
+
+.square.brown{
+    background-color: #61082B;
+}
+
+.square.sky{
+    background-color: #0093CE;
+}
+
+.square.red{
+    background-color: #FF1C1C;
+}
+
+.square.blood{
+    background-color: #D5001F;
+}
+
+.square.sky-light{
+    background-color: #B4D0E7;
+}
+
+.square.blue{
+    background-color: #0D2481;
+}
+
+.square.yellow{
+    background-color: #FFD830;
+}
+
+.big-square.center{
+    background-color: #F5F5F5;
+    overflow: auto;
+}
+
+.big-square.center .content-square{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.big-square.center img{
+    width: 50%;
+}
+
+.big-square.center .content-square .light-row{
+    width: 100px;
+    height: 50px;
+    border-bottom: 1px solid  #D4D4D6;
+}
+
+.big-square.center .content-square p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.start-trial{
+    width: 70%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.start-trial h2{
+    color: #61082B;
+    font-size: 2.5rem;
+}
+
