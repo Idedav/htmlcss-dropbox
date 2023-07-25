@@ -385,6 +385,12 @@ header ul li a{
 
 .square img{
     width: 50%;
+    filter: invert(1);
+}
+
+.square:hover{
+    border: 50px solid rgba(255, 255, 255, .2);
+    transition: all .5s;
 }
 
 .square.green{
