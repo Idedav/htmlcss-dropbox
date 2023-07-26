@@ -214,10 +214,6 @@ header ul li a{
     padding: 10px;
 }
 
-.card .type i{
-    padding-right: 5px;
-}
-
 .card .content-card{
     padding: 25px;
 }
@@ -241,10 +237,6 @@ header ul li a{
     padding-bottom: 20px;
 }
 
-.card .content-card ul li i{
-    padding-right: 5px;
-}
-
 .card .content-card button{
     width: 100%;
 }
@@ -258,6 +250,13 @@ header ul li a{
 
 .card .content-card h4{
     padding-bottom: 40px;
+}
+
+
+.card .content-card h3,
+.card .content-card span,
+.card .content-card h4{
+    padding-left: 13px;
 }
 
 .fa-check{
