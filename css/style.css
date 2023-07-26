@@ -141,6 +141,34 @@ header ul li a{
 
 .jumbo-text-image .text a{
     color: black;
+    position: relative;
+}
+
+.jumbo-text-image .text a:hover{
+    animation: up-down 1s linear infinite;
+}
+
+@keyframes up-down {
+    0%{
+        bottom: 0px;
+    }
+
+    25%{
+        bottom: 5px;
+    }
+
+    50%{
+        bottom: 10px;
+    }
+
+    75%{
+        bottom: 5px;
+    }
+
+    100%{
+        bottom: 0px;
+    }
+
 }
 
 .image{
@@ -393,6 +421,7 @@ header ul li a{
 
 .square:hover,
 .square.active{
+    cursor: pointer;
     border: 20px solid rgba(255, 255, 255, .3);
     transition: all .4s linear;
 }
@@ -491,7 +520,6 @@ header ul li a{
     display: flex;
     justify-content: space-between;
 }
-
 
 /* FOOTER */
 
