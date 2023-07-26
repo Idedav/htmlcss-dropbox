@@ -382,14 +382,19 @@ header ul li a{
     align-items: center;
 }
 
+.square{
+    border: 20px solid rgba(255, 255, 255, 0);
+}
+
 .square img{
-    width: 50%;
+    width: 60%;
     filter: invert(1);
 }
 
-.square:hover{
-    border: 50px solid rgba(255, 255, 255, .2);
-    transition: all .5s;
+.square:hover,
+.square.active{
+    border: 20px solid rgba(255, 255, 255, .3);
+    transition: all .4s linear;
 }
 
 .square.green{
